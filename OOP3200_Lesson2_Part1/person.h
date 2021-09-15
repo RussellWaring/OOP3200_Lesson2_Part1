@@ -8,21 +8,21 @@ class Person
 {
 public: // accessible outside the class
 	// CONSTRUCTOR
-	Person(std::string name, int age);
+	Person(const std::string& name, int age);
 
 	// DESTRUCTOR
 	~Person();
 
 	// GETTERS (ACCESSORS) use get or set inside the naming convention of accessors
-	std::string GetName();
-	int GetAge();
+	std::string GetName() const;
+	int GetAge() const;
 
 	// SETTERS (MUTATORS)
-	void SetName(std::string name); // typically void, typically requires a value
+	void SetName(const std::string& name); // typically void, typically requires a value
 	void SetAge(int age);
 
 	// METHODS (PUBLIC FUNCTIONS)
-	void SaysHello();
+	void SaysHello() const;
 
 
 private: // accessible only in the class itself

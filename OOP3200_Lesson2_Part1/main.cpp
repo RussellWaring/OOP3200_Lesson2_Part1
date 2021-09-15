@@ -14,7 +14,7 @@ Description: Demo project for OOP3200, following along in week 2, Monday.
 int main()
 {
     // Declare an object of a custom data type
-    Person russ("Russ", 30);
+    Person russ("Russ", 26);
 
     russ.SaysHello();
 }

@@ -1,5 +1,5 @@
-#pragma once
-#ifndef __PERSON__
+#pragma once // MSVS specific guard
+#ifndef __PERSON__ // this is referred to as a guard
 #define __PERSON__
 
 #include <string> // include inside definition

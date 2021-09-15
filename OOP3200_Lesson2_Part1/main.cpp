@@ -9,14 +9,16 @@ Description: Demo project for OOP3200, following along in week 2, Monday.
 */
 
 #include <iostream>
-#include "Person.h"
+#include "Student.h"
 
 int main()
 {
+
     // Declare an object of a custom data type
-    Person russ("Russ", 26);
+    Student russ("Russ", 26, "a123456789");
 
     russ.SaysHello();
+    russ.Studies();
 }
 
 

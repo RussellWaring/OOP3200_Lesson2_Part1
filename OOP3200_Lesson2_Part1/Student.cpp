@@ -1,7 +1,7 @@
 #include "Student.h"
 #include <iostream>
 
-Student::Student(const std::string& name, const int age, std::string& student_id)
+Student::Student(const std::string& name, const int age, const std::string& student_id)
 	: Person(name, age)
 {
 	SetStudentID(student_id);
@@ -20,7 +20,7 @@ bool Student::IsStudying() const
 	return m_isStudying;
 }
 
-void Student::SetStudentID(const std::string& student_id)
+void Student::SetStudentID(const std::string student_id)
 {
 	m_studentID = student_id;
 }

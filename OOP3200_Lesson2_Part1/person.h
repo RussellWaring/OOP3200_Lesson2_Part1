@@ -8,7 +8,7 @@ class Person
 {
 public: // accessible outside the class
 	// CONSTRUCTOR
-	Person(const std::string& name, int age);
+	Person(const std::string& name, const int age);
 
 	// DESTRUCTOR
 	~Person();
